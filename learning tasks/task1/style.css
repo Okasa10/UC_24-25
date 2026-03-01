@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+
+}
+
+#buttonBox {
+    width: 75vw;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(113, 113, 113, 0.573), 0 6px 20px 0 rgba(113, 113, 113, 0.573);
+}
+
+#buttonBox button:active {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(113, 113, 113, 0.573), 0 6px 20px 0 rgba(113, 113, 113, 0.573);
+
+}
+
+
+.products {
+    max-width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.postForm {
+    margin: 50px auto;
+    width: 50%;
+    /* width: 60vw; */
+    background-color: rgb(49, 48, 48);
+    border-radius: 20px 20px;
+    height: 500px;
+}
+
+.description {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin: 20px 0px;
+
+}
+
+#getID {
+    margin: 50px auto;
+    width: 50vw;
+}
+
+.pagesbuttons {
+    width: 350px;
+    height: 50px;
+    margin: 0px auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+@media only screen and (max-width:930px) {
+    .products {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width:605px) {
+    .products {
+        grid-template-columns: auto;
+    }
+}

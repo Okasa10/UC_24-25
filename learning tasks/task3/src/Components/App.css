@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* .navbar {
+  background-color: rgba(0, 42, 84, 0.904);
+  color: rgba(173, 239, 209, 0.629);
+} */
+
+.navbar-brand {
+  margin-left: 60px;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: Unlock;
+}
+
+.Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.options {
+  box-shadow: 0 4px 8px 0 rgba(0, 31, 63, 0.244), 0 6px 20px 0 rgba(0, 31, 63, 0.581);
+  /* color: #00203FFF; */
+  width: 60vw;
+  margin: 50px 0px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.password {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.theme {
+  margin-right: 20px;
+}
+
+.outerbox {
+  width: 100vw;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+.login button {
+  margin: auto auto;
+}
+
+.l-option {
+  margin: auto auto;
+  width: 40vw;
+}
+
+.buttons {
+  height: 25vh;
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+
+}
+
+.buttons button {
+  margin: 10px;
+  width: 180px;
+  height: 70px;
+}
+
+#output {
+  flex-direction: column;
+}
+
+#outputBox {
+  /* width: 50vw; */
+  height: 50vh;
+  font-size: 16px;
+  font-weight: bold;
+  /* text-align: center; */
+  border-radius: 20px;
+}
